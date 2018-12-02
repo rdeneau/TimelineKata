@@ -18,4 +18,10 @@
       <ProjectReference Include="..\Soat.SoftwareCrafters.Timeline\Soat.SoftwareCrafters.Timeline.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Externals\OtherTests_1_InputList.cs" />
+      <Compile Remove="Externals\OtherTests_2_OutputList.cs" />
+      <Compile Remove="Externals\OtherTests_3_Dates.cs" />
+    </ItemGroup>
+
 </Project>
