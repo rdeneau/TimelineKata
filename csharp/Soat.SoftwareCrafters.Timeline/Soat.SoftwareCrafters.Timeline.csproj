@@ -4,4 +4,12 @@
         <TargetFramework>netcoreapp2.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Implementations" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Implementations\DraftTimeline.cs" />
+    </ItemGroup>
+
 </Project>
